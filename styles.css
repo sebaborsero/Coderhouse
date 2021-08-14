@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 85%;
+    margin-left: 2%;
+}
+
+.principal {
+    background-color: rgb(42, 33, 170);
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 56px;
+    color: rgb(109, 175, 196);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(109, 175, 196);
+  }
+  
+li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: rgba(31, 59, 187, 0.74);
+  }
+
+.active {
+    background-color: rgb(185, 38, 38);
+  }
+
+.noticiasIndex {
+    display: flex;
+    flex-direction: row;
+}
+
+.noticiasAerolineas {
+    display: flex;
+    flex-direction: row;
+}
+
+.noticiasNoticias {
+    display: flex;
+    flex-direction: row;
+}
+
+.noticiasDefensa {
+    display: flex;
+    flex-direction: row;
+}
+
+.articulosIndex {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tituloSuscripcion {
+    margin: 15px 15px;
+}
+.articuloSuscripcion{
+    display: flex;
+    flex-direction: row;
+}
+
+.textoSuscripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.imgSuscripcion {
+    margin-left: 50px;
+}
+table, th, td {
+    border: 1px solid black;
+    background-color: rgb(109, 175, 196);
+}
+
+.tablaComunicate {
+    margin: 15px 15 px;
+}
+
+.campo {
+    padding: 15px 15px;
+}
+
+.notiAerolineas {
+    display: flex;
+    flex-direction: row;
+}
+
+.bloqueNoticia {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(42, 33, 170);
+}

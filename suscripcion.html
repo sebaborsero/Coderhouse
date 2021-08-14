@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripcion - Flightnews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <section class="principal">
+            <h1>Flightnews</h1>
+        </section>
+        <section class="barra">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="aerolineas.html">Aerolineas</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="defensa.html">Defensa</a></li>
+                <li><a href="suscripcion.html">Suscripcion</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <article>
+            <h2 class="tituloSuscripcion">Suscribete a Flightnews Premium</h2>
+            <article class="articuloSuscripcion">
+            <img class="imgSuscripcion" src="./images/dispositivos.jpg" alt="">
+            <p class="textoSuscripcion">La suscripción de referencia para la industria de la aviación mundial.
+
+                La suscripción garantiza que obtendrá opiniones independientes, noticias de última hora y análisis de expertos que cubren los desarrollos aeroespaciales, de transporte aéreo y de defensa en el sector. Simplemente elija el paquete de membresía de suscripción en el formato que sea adecuado para usted.
+                Una suscripción premium :
+
+                Brindarle la confianza para tomar decisiones informadas y mantenerse completamente actualizado con la actividad, el análisis y los comentarios de la industria de la aviación en todo el mundo.
+                Ahorre tiempo a través de nuestras noticias completas y conocimientos sobre la industria de la aviación global, todo en un solo lugar
+                Ofrecerle herramientas para hacer su trabajo de la mejor manera a través de actualizaciones sobre todos los problemas en nuestra Alerta de noticias diaria y análisis de miembros primero
+                Contáctenos para soluciones de suscripción corporativa . Hay paquetes a medida disponibles para su organización.</p>
+            </article>    
+        </article>
+
+        <section class="tablaComunicate">
+            <fieldset class="campo">
+                <h3>Comunicate con nosotros</h3>
+            <form>            
+                <label for="fname">Nombre Completo</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Apellido</label><br>
+                <input type="text" id="lname" name="lname">
+                <p>Motivo del contacto</p>
+                <input type="radio" id="sugiere" name="tipo_consulta" value="sugerencia">
+                <label for="sugerencia">Sugerencia</label><br>
+                <input type="radio" id="dato" name="tipo_consulta" value="dato">
+                <label for="dato">Dato de Interes</label><br>
+                <input type="radio" id="reclamo" name="tipo_consulta" value="reclamo">
+                <label for="reclamo">Reclamo</label>
+                
+                <br>
+
+                <br>
+                <label for="tema">Tema de interes</label>
+
+                <select name="tema" id="subject">
+                <option value="Aerolineas">Aerolineas</option>
+                <option value="Defensa">Defensa</option>
+                <option value="Noticias">Noticias</option>
+                <option value="Suscripcion">Suscripcion</option>
+                </select>
+
+                <br>
+                <br>
+                
+                <textarea id="textoconsulta" name="consulta" rows="4" cols="50">
+                
+                </textarea>
+                <br>
+                <br>
+
+
+                <input type="submit" value="Enviar">
+                <input type="reset">
+            </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <h4>Sitio especializado en noticias de aviación</h4>
+    </footer>
+    
+</body>
+</html>
